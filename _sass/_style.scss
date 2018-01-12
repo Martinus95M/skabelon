@@ -5,6 +5,29 @@
 html {
   margin: 0;
   padding: 0;
-  background-color: red;
-  
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  max-width: 100%;
+  .wrap {
+
+  header {
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+  }
+  section {
+
+  }
+}
+  footer {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: black;
+    padding: 20px;
+  }
 }
