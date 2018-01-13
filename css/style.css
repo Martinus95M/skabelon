@@ -1,29 +1,46 @@
-* {
-  box-sizing: border-box;
-}
+/*
+Error: Invalid CSS after "  max-width: 100%": expected "{", was ";"
+        on line 16 of C:\Users\Martinus\Desktop\kodning\skabelon\_sass\_style.scss
 
-html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
+11: body {
+12:   min-height: 100%;
+13:   display: grid;
+14:   grid-template-rows: 1fr auto;
+15: <<<<<<< HEAD
+16:   max-width: 100%;
+17:   .wrap {
+18: 
+19:   header {
+20:     padding: 20px;
+21:     width: 100%;
 
-body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
-  max-width: 100%;
-}
-body .wrap header {
-  padding: 20px;
-  width: 100%;
-  background-color: black;
-}
-body footer {
-  grid-row-start: 2;
-  grid-row-end: 3;
-  background-color: black;
-  padding: 20px;
-}
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+C:\Users\Martinus\Desktop\kodning\skabelon\_sass\_style.scss:16
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1278:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1208:in `expected'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:1203:in `tok!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:677:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:747:in `declaration_or_ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:697:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:678:in `block'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:670:in `ruleset'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:696:in `block_child'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:689:in `block_contents'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:137:in `stylesheet'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/scss/parser.rb:41:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:414:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"  max-width: 100%\": expected \"{\", was \";\"\A         on line 16 of C:\Users\Martinus\Desktop\kodning\skabelon\_sass\_style.scss\A \A 11: body {\A 12:   min-height: 100%;\A 13:   display: grid;\A 14:   grid-template-rows: 1fr auto;\A 15: <<<<<<< HEAD\A 16:   max-width: 100%;\A 17:   .wrap {\A 18: \A 19:   header {\A 20:     padding: 20px;\A 21:     width: 100%;"; }
