@@ -7,22 +7,25 @@ body {
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
-  /* Header Showcase */
 }
-body img {
+
+img {
   display: block;
   width: 100%;
   height: auto;
 }
-body h1, body h2, body h3 {
+
+h1, h2, h3 {
   margin: 0;
   padding: 1em 0;
 }
-body p {
+
+p {
   margin: 0;
   padding: 1em 0;
 }
-body .btn {
+
+.btn {
   display: inline-block;
   background: #333;
   color: #fff;
@@ -31,9 +34,32 @@ body .btn {
   border: 1px solid #666;
   margin: .5em 0;
 }
-body .btn:hover {
+
+.btn:hover {
   background: #eaeaea;
   color: #333;
+}
+
+/* Header Showcase */
+#showcase {
+  min-height: 450px;
+  color: #fff;
+  text-align: center;
+}
+#showcase .bg-image {
+  position: absolute;
+  background: #333 url("https://images.pexels.com/photos/248515/pexels-photo-248515.png?w=940&h=650&auto=compress&cs=tinysrgb");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+  z-index: -1;
+  opacity: 0.4;
+}
+#showcase h1 {
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
