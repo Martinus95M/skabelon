@@ -9,28 +9,5 @@ html {
 }
 
 body {
-  min-height: 100%;
-  display: grid;
-  grid-template-rows: 1fr auto;
-<<<<<<< HEAD
-  max-width: 100%;
-  .wrap {
-
-  header {
-    padding: 20px;
-    width: 100%;
-    background-color: black;
-  }
-  section {
-
-  }
-}
-  footer {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    background-color: black;
-    padding: 20px;
-  }
-=======
->>>>>>> 41c5fe79c1a62fa2975e578d8dfcaf5e2b918396
+  
 }
