@@ -12,7 +12,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 1em;
+  width: 0.3em;
 }
 
 body::-webkit-scrollbar-track {
@@ -58,7 +58,7 @@ p {
 nav {
   position: fixed;
   width: 100%;
-  padding: 20px 0;
+  padding: 24px 0;
   text-align: center;
   font-family: Raleway;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
