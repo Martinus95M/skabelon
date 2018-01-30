@@ -1,6 +1,10 @@
 /* Import */
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 /* Core Styles */
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: arial, helvetica, sans-serif;
@@ -154,7 +158,7 @@ nav {
   text-align: center;
 }
 #main-footer a {
-  color: #33cc33;
+  color: #3fa46a;
   text-decoration: none;
 }
 

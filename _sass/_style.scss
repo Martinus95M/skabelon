@@ -1,8 +1,13 @@
 /* Import */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway);
+@import "undersite1.scss";
 
 /* Core Styles */
+
+  * {
+    box-sizing: border-box;
+  }
 
   body {
     margin: 0;
